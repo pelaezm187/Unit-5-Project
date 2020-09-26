@@ -1,0 +1,23 @@
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+
+.searchbox {
+  grid-area: searchbox;
+}
+
+.gallery {
+  grid-area: photo;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.grid {
+  height: 100vh;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas:
+  "searchbox"
+  "photo"
+  "footer";
+}
