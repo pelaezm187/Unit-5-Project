@@ -7,9 +7,13 @@
 }
 
 .gallery {
-  grid-area: photo;
+  grid-area: gallery;
   margin: auto;
   max-width: 1000px;
+}
+
+.footer {
+ grid-area: footer;
 }
 
 .grid {
@@ -18,6 +22,6 @@
   grid-gap: 30px;
   grid-template-areas:
   "searchbox"
-  "photo"
+  "gallery"
   "footer";
 }

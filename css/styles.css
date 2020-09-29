@@ -2,12 +2,6 @@
 /* Sub-Folder Imports */
 /* ============================================= */
 /* ============================================= */
-/* Utilities Imports */
-/* ============================================= */
-/* ============================================= */
-/*                  Variables                    */
-/* ============================================= */
-/* ============================================= */
 /* Base Imports */
 /* ============================================= */
 /* line 1, ../../../../Projects/Unit-5-Project/scss/base/_normalize.scss */
@@ -17,96 +11,24 @@ body {
 }
 
 /* ============================================= */
-/*              Base styles                      */
-/* ============================================= */
-/* line 6, ../../../../Projects/Unit-5-Project/scss/base/_typography.scss */
-* {
-  font-family: "Lato", sans-serif;
-  color: #777;
-  box-sizing: border-box;
-}
-
-/* line 12, ../../../../Projects/Unit-5-Project/scss/base/_typography.scss */
-p {
-  line-height: 1.45em;
-}
-
-/* line 16, ../../../../Projects/Unit-5-Project/scss/base/_typography.scss */
-a {
-  text-decoration: none;
-}
-
-/* ============================================= */
-/*              Typography                       */
-/* ============================================= */
-/* line 25, ../../../../Projects/Unit-5-Project/scss/base/_typography.scss */
-.headline-primary {
-  color: #58e1c1;
-  margin-left: 10px;
-}
-
-/* line 30, ../../../../Projects/Unit-5-Project/scss/base/_typography.scss */
-.headline-secondary {
-  font-weight: 300;
-  color: #777;
-}
-
-/* line 35, ../../../../Projects/Unit-5-Project/scss/base/_typography.scss */
-.link {
-  color: #51ddfc;
-  font-weight: 700;
-}
-
-/* line 40, ../../../../Projects/Unit-5-Project/scss/base/_typography.scss */
-.blockquote {
-  font-size: 1.5em;
-  font-weight: 300;
-  font-style: italic;
-  margin-left: 20px;
-  padding-left: 20px;
-  border-left: 8px solid #58e1c1;
-  border-radius: 5px;
-}
-
-/* ============================================= */
 /* Components Imports */
 /* ============================================= */
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
 /* line 5, ../../../../Projects/Unit-5-Project/scss/components/_forms.scss */
+#searchMarker {
+  font-size: 30px;
+}
+
+/* line 9, ../../../../Projects/Unit-5-Project/scss/components/_forms.scss */
 input {
   font-size: 20px;
-  width: 600px;
+  width: 320px;
   height: 50px;
   margin-top: 20px;
-}
-
-/* ============================================= */
-/*              Navigation                       */
-/* ============================================= */
-/* line 5, ../../../../Projects/Unit-5-Project/scss/components/_navigation.scss */
-.nav {
-  padding-left: 0;
-  flex-basis: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-/* line 11, ../../../../Projects/Unit-5-Project/scss/components/_navigation.scss */
-.nav-link {
-  text-align: center;
+  border-width: 0px;
   border-radius: 5px;
-  padding: 10px 0;
-  display: block;
-  width: 100%;
-  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
-}
-
-/* line 22, ../../../../Projects/Unit-5-Project/scss/components/_navigation.scss */
-.nav-link:hover {
-  color: #fff;
-  background-color: #58e1c1;
 }
 
 /* ============================================= */
@@ -114,7 +36,16 @@ input {
 /* ============================================= */
 /* line 5, ../../../../Projects/Unit-5-Project/scss/components/_images.scss */
 img {
-  margin: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #555;
+  opacity: .7;
+}
+
+/* line 12, ../../../../Projects/Unit-5-Project/scss/components/_images.scss */
+img:hover {
+  opacity: 1;
+  box-shadow: 0 0 0;
 }
 
 /* ============================================= */
@@ -127,17 +58,22 @@ img {
 
 /* line 9, ../../../../Projects/Unit-5-Project/scss/components/_grid.scss */
 .gallery {
-  grid-area: photo;
+  grid-area: gallery;
   margin: auto;
   max-width: 1000px;
 }
 
 /* line 15, ../../../../Projects/Unit-5-Project/scss/components/_grid.scss */
+.footer {
+  grid-area: footer;
+}
+
+/* line 19, ../../../../Projects/Unit-5-Project/scss/components/_grid.scss */
 .grid {
   height: 100vh;
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "searchbox" "photo" "footer";
+  grid-template-areas: "searchbox" "gallery" "footer";
 }
 
 /*# sourceMappingURL=styles.css.map */
