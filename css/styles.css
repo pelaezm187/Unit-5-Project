@@ -37,12 +37,14 @@ input {
 /* line 5, ../../../../Projects/Unit-5-Project/scss/components/_images.scss */
 img {
   margin: 10px;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px #555;
+  padding: 0px;
+  border-width: 10px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px #888;
   opacity: .7;
 }
 
-/* line 12, ../../../../Projects/Unit-5-Project/scss/components/_images.scss */
+/* line 14, ../../../../Projects/Unit-5-Project/scss/components/_images.scss */
 img:hover {
   opacity: 1;
   box-shadow: 0 0 0;
