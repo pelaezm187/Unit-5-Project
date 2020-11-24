@@ -4,7 +4,7 @@
 /* ============================================= */
 /* Base Imports */
 /* ============================================= */
-/* line 1, ../../../../Projects/Unit-5-Project/scss/base/_normalize.scss */
+/* line 2, ../../../../Projects/Unit-5-Project/scss/base/_normalize.scss */
 body {
   text-align: center;
   background-color: #ddd;
@@ -16,12 +16,12 @@ body {
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
-/* line 5, ../../../../Projects/Unit-5-Project/scss/components/_forms.scss */
+/* line 6, ../../../../Projects/Unit-5-Project/scss/components/_forms.scss */
 #searchMarker {
   font-size: 30px;
 }
 
-/* line 9, ../../../../Projects/Unit-5-Project/scss/components/_forms.scss */
+/* line 10, ../../../../Projects/Unit-5-Project/scss/components/_forms.scss */
 input {
   font-size: 20px;
   width: 320px;
@@ -34,7 +34,7 @@ input {
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
-/* line 5, ../../../../Projects/Unit-5-Project/scss/components/_images.scss */
+/* line 6, ../../../../Projects/Unit-5-Project/scss/components/_images.scss */
 img {
   margin: 10px;
   padding: 0px;
@@ -44,7 +44,7 @@ img {
   opacity: .7;
 }
 
-/* line 14, ../../../../Projects/Unit-5-Project/scss/components/_images.scss */
+/* line 15, ../../../../Projects/Unit-5-Project/scss/components/_images.scss */
 img:hover {
   opacity: 1;
   box-shadow: 0 0 0;
@@ -53,12 +53,12 @@ img:hover {
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
-/* line 5, ../../../../Projects/Unit-5-Project/scss/components/_grid.scss */
+/* line 6, ../../../../Projects/Unit-5-Project/scss/components/_grid.scss */
 .searchbox {
   grid-area: searchbox;
 }
 
-/* line 9, ../../../../Projects/Unit-5-Project/scss/components/_grid.scss */
+/* line 10, ../../../../Projects/Unit-5-Project/scss/components/_grid.scss */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -68,12 +68,12 @@ img:hover {
   max-width: 1000px;
 }
 
-/* line 18, ../../../../Projects/Unit-5-Project/scss/components/_grid.scss */
+/* line 19, ../../../../Projects/Unit-5-Project/scss/components/_grid.scss */
 .footer {
   grid-area: footer;
 }
 
-/* line 22, ../../../../Projects/Unit-5-Project/scss/components/_grid.scss */
+/* line 23, ../../../../Projects/Unit-5-Project/scss/components/_grid.scss */
 .grid {
   height: 100vh;
   display: grid;
